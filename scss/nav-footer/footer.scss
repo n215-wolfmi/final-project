@@ -1,0 +1,62 @@
+footer {
+    max-width: $page-width;
+    width: 100%;
+    height: 455px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $site-pink;
+    color: #fff;
+
+    .logo {
+        margin-top: 35px;
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.png);
+    }
+
+    .footer-info {
+        text-align: center;
+        font-family: GillSansReg;
+        font-size: 15px;
+    }
+
+    .subscribe-div {
+        max-width: 696px;
+
+        .sub-input {
+            width: 529px;
+            height: 60px;
+            background-color: #F56B88;
+            color: #fff;
+            border: none;
+            padding-left: 23px;
+            font-family: GillSansReg;
+            font-size: 16px;
+        }
+
+        .site-btn {
+            width: 167px;
+            height: 60px;
+            color: $site-pink;
+            background-color: #fff;
+            font-family: GillSansReg;
+            font-size: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 20px 40px;
+            margin-left: -4px;
+        }
+    }
+
+    .socials {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 150px;
+    }
+
+}

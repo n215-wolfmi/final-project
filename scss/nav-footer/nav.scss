@@ -1,0 +1,31 @@
+nav {
+    background-color: aqua;
+    max-width: $content-width;
+    margin: 0 auto;
+    min-height: 80px;
+    margin-top: 20px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.png);
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: "GillSansReg";
+            font-size: 15px;
+        }
+
+        span {
+            color: $site-pink;
+            margin: 0 15px;
+        }
+    }
+}
