@@ -29,30 +29,53 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  background-color: aqua;
   max-width: 980px;
+  width: 75%;
   margin: 0 auto;
   min-height: 80px;
   margin-top: 20px;
-  border-bottom: 2px solid #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 nav .logo {
   width: 92px;
   height: 42px;
-  background-image: url(../images/logo/logo-white.png);
 }
 nav .links a {
   text-decoration: none;
-  color: #fff;
   font-family: "GillSansReg";
   font-size: 15px;
 }
 nav .links span {
   color: #EE4367;
   margin: 0 15px;
+  font-size: 25px;
+}
+
+.links-black {
+  color: #000;
+}
+
+.links-white {
+  color: #fff;
+}
+
+.logo-black {
+  background-image: url(../images/logo/logo-black.png);
+}
+
+.logo-white {
+  background-image: url(../images/logo/logo-white.png);
+}
+
+.border-black {
+  border-bottom: 2px solid #000;
+}
+
+.border-white {
+  border-bottom: 2px solid #fff;
 }
 
 footer {
@@ -80,9 +103,12 @@ footer .footer-info {
 }
 footer .subscribe-div {
   max-width: 696px;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
 }
 footer .subscribe-div .sub-input {
-  width: 529px;
+  width: 75%;
   height: 60px;
   background-color: #F56B88;
   color: #fff;
@@ -92,7 +118,7 @@ footer .subscribe-div .sub-input {
   font-size: 16px;
 }
 footer .subscribe-div .site-btn {
-  width: 167px;
+  width: 174px;
   height: 60px;
   color: #EE4367;
   background-color: #fff;
@@ -100,8 +126,9 @@ footer .subscribe-div .site-btn {
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  padding: 20px 40px;
-  margin-left: -4px;
+  padding: 20px 46px;
+  box-shadow: none;
+  border: none;
 }
 footer .socials {
   font-size: 30px;
@@ -109,6 +136,162 @@ footer .socials {
   align-items: center;
   justify-content: space-between;
   width: 150px;
+  color: #fff;
+}
+footer .socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home-hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1280px;
+  width: 100%;
+  height: 500px;
+  margin: -100px auto 0 auto;
+}
+.home-hero .home-banner {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+.home-hero .home-banner .home-title {
+  font-size: 40px;
+  font-family: "PTSerifReg";
+  color: #fff;
+}
+.home-hero .home-banner .home-subtitle {
+  margin-top: -10px;
+  font-size: 20px;
+  font-family: "GillSansReg";
+  font-style: italic;
+  color: #EE4367;
+}
+.home-hero .home-banner .home-desc {
+  font-size: 20px;
+  font-family: "GillSansReg";
+  font-style: italic;
+  color: #fff;
+  margin: 60px 0;
+}
+.home-hero .home-banner .site-btn {
+  height: 40px;
+  width: 120px;
+  background-color: #EE4367;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 30px;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+
+.quote-section {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.quote-section .quote-div {
+  max-width: 710px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+.quote-section .quote-div .quote {
+  width: 100%;
+  color: #FFD140;
+  font-family: "GillSansMedIt";
+  font-size: 15px;
+}
+.quote-section .quote-div .client-name {
+  font-family: "PtSerifReg";
+  font-size: 15px;
+  color: #EE4367;
+  margin-top: 25px;
+}
+.quote-section .quote-div .client-job {
+  margin-top: -10px;
+  font-family: "PtSerifReg";
+  font-size: 10px;
+  color: #A8A8A8;
+}
+
+.events-section {
+  margin: 0 auto;
+  max-width: 1280px;
+  min-height: 320px;
+  background-color: #540D6E;
+  padding: 0 40px;
+}
+.events-section .events-title {
+  font-family: "GillSansReg";
+  font-size: 25px;
+  border-bottom: #fff solid 2px;
+  width: 392px;
+  color: #fff;
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
+.events-section .events-calendar {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 35px;
+}
+.events-section .events-calendar .events-split {
+  display: flex;
+}
+.events-section .events-calendar .events-box {
+  display: flex;
+  margin-right: 20px;
+  width: 220px;
+}
+.events-section .events-calendar .events-box .ebox-left {
+  font-family: "GillSansReg";
+}
+.events-section .events-calendar .events-box .ebox-left .ebtn-container {
+  background-color: #EE4367;
+  text-align: center;
+  color: #fff;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+}
+.events-section .events-calendar .events-box .ebox-left .ebtn-container .date-num {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+.events-section .events-calendar .events-box .ebox-left .ebtn-container .date-month {
+  font-size: 12px;
+  margin: 0;
+}
+.events-section .events-calendar .events-box .ebox-left .ebtn-container a .ebtn-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.events-section .events-calendar .events-box .ebox-right {
+  font-family: "GillSansReg";
+  width: 140px;
+  margin-left: 20px;
+}
+.events-section .events-calendar .events-box .ebox-right .ebox-title {
+  font-size: 15px;
+  color: #fff;
+}
+.events-section .events-calendar .events-box .ebox-right .ebox-desc {
+  font-size: 13px;
+  color: #EE4367;
+}
+
+@media screen and (max-width: 1235px) {
+  .events-calendar {
+    flex-direction: column;
+    padding-bottom: 72px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

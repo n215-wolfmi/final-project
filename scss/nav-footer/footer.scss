@@ -25,9 +25,12 @@ footer {
 
     .subscribe-div {
         max-width: 696px;
+        width: 100%;
+        padding: 0 50px;
+        display: flex;
 
         .sub-input {
-            width: 529px;
+            width: 75%;
             height: 60px;
             background-color: #F56B88;
             color: #fff;
@@ -38,7 +41,7 @@ footer {
         }
 
         .site-btn {
-            width: 167px;
+            width: 174px;
             height: 60px;
             color: $site-pink;
             background-color: #fff;
@@ -46,8 +49,9 @@ footer {
             font-size: 16px;
             text-decoration: none;
             cursor: pointer;
-            padding: 20px 40px;
-            margin-left: -4px;
+            padding: 20px 46px;
+            box-shadow: none;
+            border: none;
         }
     }
 
@@ -57,6 +61,11 @@ footer {
         align-items: center;
         justify-content: space-between;
         width: 150px;
+        color: #fff;
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
     }
-
 }

@@ -1,0 +1,32 @@
+.quote-section {
+    margin: 0 auto;
+    max-width: $page-width;
+
+    .quote-div {
+        max-width: 710px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 70px 20px;
+    
+        .quote {
+            width: 100%;
+            color: $site-yellow;
+            font-family: "GillSansMedIt";
+            font-size: 15px;
+        }
+        
+        .client-name {
+            font-family: "PtSerifReg";
+            font-size: 15px;
+            color: $site-pink;
+            margin-top: 25px;
+        }
+    
+        .client-job {
+            margin-top: -10px;
+            font-family: "PtSerifReg";
+            font-size: 10px;
+            color: #A8A8A8;
+        }
+    }
+}

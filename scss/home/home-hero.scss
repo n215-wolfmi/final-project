@@ -1,0 +1,49 @@
+.home-hero {
+    background-image: linear-gradient(rgba($site-yellow, 0.7), rgba($site-yellow, 0.7)), url(../images/home-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: $page-width;
+    width: 100%;
+    height: 500px;
+    margin: -100px auto 0 auto;
+
+    .home-banner {
+        position: relative;
+        top: 150px;
+        text-align: center;
+
+        .home-title {
+            font-size: 40px;
+            font-family: "PTSerifReg";
+            color: #fff;
+        }
+
+        .home-subtitle {
+            margin-top: -10px;
+            font-size: 20px;
+            font-family: "GillSansReg";
+            font-style: italic;
+            color: $site-pink;
+        }
+
+        .home-desc {
+            font-size: 20px;
+            font-family: "GillSansReg";
+            font-style: italic;
+            color: #fff;
+            margin: 60px 0;
+        }
+
+        .site-btn {
+            height: 40px;
+            width: 120px;
+            background-color: $site-pink;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 30px;
+            font-family: "GillSansReg";
+            font-size: 15px;
+        }
+    }
+}
