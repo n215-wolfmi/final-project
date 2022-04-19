@@ -194,7 +194,7 @@ footer .socials a {
 }
 .quote-section .quote-div {
   max-width: 710px;
-  width: 100%;
+  width: 55%;
   margin: 0 auto;
   padding: 70px 20px;
 }
@@ -292,6 +292,37 @@ footer .socials a {
     flex-direction: column;
     padding-bottom: 72px;
   }
+}
+.about-hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 980px;
+  width: 75%;
+  height: 378px;
+  margin: 85px auto 0 auto;
+  background-color: #000;
+}
+
+.about-info {
+  max-width: 980px;
+  width: 75%;
+  margin: -25px auto 95px auto;
+}
+.about-info .about-title {
+  font-family: "GillSansReg";
+  font-size: 25px;
+  width: 299px;
+  border-bottom: #000 solid 2px;
+  padding-bottom: 10px;
+  margin-bottom: 36px;
+}
+.about-info .about-desc {
+  font-family: "GillSansLight";
+  font-style: italic;
+  font-size: 16px;
+  max-width: 980px;
 }
 
 /*# sourceMappingURL=styles.css.map */

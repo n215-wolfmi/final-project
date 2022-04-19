@@ -1,0 +1,21 @@
+.about-info {
+    max-width: $content-width;
+    width: 75%;
+    margin: -25px auto 95px auto;
+
+    .about-title {
+        font-family: "GillSansReg";
+        font-size: 25px;
+        width: 299px;
+        border-bottom: #000 solid 2px;
+        padding-bottom: 10px;
+        margin-bottom: 36px;
+    }
+
+    .about-desc {
+        font-family: "GillSansLight";
+        font-style: italic;
+        font-size: 16px;
+        max-width: $content-width;
+    }
+}
