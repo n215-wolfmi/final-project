@@ -115,6 +115,25 @@ var aboutContent = `
             <p class="about-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
         </div>
 `;
+var galleryContent = `
+<div class="title-container">
+    <p class="gallery-title">GALLERY:</p>
+</div>
+
+<div class="gallery-section">
+    <div class="gallery-1-2-3">
+        <div class="gallery-1"><a href="#1"><span class="gal-link"></span></a></div>
+        <div class="gallery-2-3">
+            <div class="gallery-2"><a href="#2"><span class="gal-link"></span></a></div>
+            <div class="gallery-3"><a href="#3"><span class="gal-link"></span></a></div>
+        </div>
+    </div>
+    <div class="gallery-1-2-3">
+        <div class="gallery-4"><a href="#4"><span class="gal-link"></span></a></div>
+        <div class="gallery-5"><a href="#5"><span class="gal-link"></span></a></div>
+    </div>
+</div>
+`;
 
 
 //inserts page content into app div

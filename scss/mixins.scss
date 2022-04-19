@@ -1,0 +1,18 @@
+@mixin gallery-background($width: 489px, $height: 187px, $m-right: 20px) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: $width;
+    min-height: $height;
+    margin-right: $m-right;
+    position: relative;
+    cursor: pointer;
+}
+
+@mixin gallery-link() {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
