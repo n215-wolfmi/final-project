@@ -1,0 +1,15 @@
+.gallery-template-hero1 {
+    @include g-template-background();
+}
+.gallery-template-hero2 {
+    @include g-template-background($gradient: $site-pink, $bgImage: "../images/gallery/2.jpeg");
+}
+.gallery-template-hero3 {
+    @include g-template-background($gradient: $site-green, $bgImage: "../images/gallery/3.jpg");
+}
+.gallery-template-hero4 {
+    @include g-template-background($gradient: $site-purple, $bgImage: "../images/gallery/4.jpg");
+}
+.gallery-template-hero5 {
+    @include g-template-background($gradient: $site-aquamarine, $bgImage: "../images/gallery/5.png");
+}

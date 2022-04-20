@@ -41,7 +41,7 @@
     
         .gallery-5 {
             background-image: linear-gradient(rgba($site-aquamarine, 0.7), rgba($site-aquamarine, 0.7)), url(../images/gallery/5.png);
-            @include gallery-background($width: 355px, $height: 306px);  
+            @include gallery-background($width: 355px, $height: 306px, $m-right:0);  
             a {.gal-link {@include gallery-link();}}
         }
     }

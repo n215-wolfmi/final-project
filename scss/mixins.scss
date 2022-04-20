@@ -16,3 +16,24 @@
     top: 0;
     left: 0;
 }
+
+@mixin g-template-background($gradient: $site-yellow, $bgImage: "../images/gallery/1.png") {
+    background-image: linear-gradient(rgba($gradient, 0.7), rgba($gradient, 0.7)), url($bgImage);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: $content-width;
+    width: 75%;
+    height: 400px;
+    margin: 50px auto 0 auto;
+}
+
+@mixin gallery-title-container($textColor: $site-yellow) {
+    margin: -290px auto 0 auto;
+    max-width: $content-width;
+    width: 75%;
+    font-family: "GillSansReg";
+    display: flex;
+    color: $textColor;
+    text-shadow: 2px 2px rgb(23, 23, 23);
+}

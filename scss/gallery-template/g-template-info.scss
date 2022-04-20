@@ -1,0 +1,44 @@
+.g-title-container1 {@include gallery-title-container();}
+.g-title-container2 {@include gallery-title-container($textColor: $site-pink);}
+.g-title-container3 {@include gallery-title-container($textColor: $site-green);}
+.g-title-container4 {@include gallery-title-container($textColor: $site-purple);}
+.g-title-container5 {@include gallery-title-container($textColor: $site-aquamarine);}
+
+.title-left {
+    font-size: 300px;
+}
+
+.title-right {
+    padding-top: 160px;
+    font-size: 130px;
+}
+
+.g-template-info {
+    margin: -30px auto 75px auto;
+    max-width: $content-width;
+    width: 75%;
+    display: flex;
+    font-family: "GillSansLight";
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
+
+    .g-desc-left {
+        width: 490px;
+        margin-right: 40px;
+    }
+
+    .g-desc-right {
+        width: 450px;
+    }
+}
+
+@media screen and(max-width: 1280px) {
+    .title-left {
+        font-size: 10vw;
+    }
+
+    .title-right {
+        font-size: 10vw;
+    }
+}
