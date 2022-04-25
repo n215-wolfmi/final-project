@@ -463,6 +463,7 @@ footer .socials a {
   width: 75%;
   height: 400px;
   margin: 50px auto 0 auto;
+  position: relative;
 }
 
 .gallery-template-hero2 {
@@ -474,6 +475,7 @@ footer .socials a {
   width: 75%;
   height: 400px;
   margin: 50px auto 0 auto;
+  position: relative;
 }
 
 .gallery-template-hero3 {
@@ -485,6 +487,7 @@ footer .socials a {
   width: 75%;
   height: 400px;
   margin: 50px auto 0 auto;
+  position: relative;
 }
 
 .gallery-template-hero4 {
@@ -496,6 +499,7 @@ footer .socials a {
   width: 75%;
   height: 400px;
   margin: 50px auto 0 auto;
+  position: relative;
 }
 
 .gallery-template-hero5 {
@@ -507,69 +511,117 @@ footer .socials a {
   width: 75%;
   height: 400px;
   margin: 50px auto 0 auto;
+  position: relative;
 }
 
 .g-title-container1 {
-  margin: -290px auto 0 auto;
+  margin: 0 auto;
   max-width: 980px;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   font-family: "GillSansReg";
   display: flex;
   color: #FFD140;
   text-shadow: 2px 2px rgb(23, 23, 23);
+  padding-left: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .g-title-container1 {
+    flex-direction: column;
+    padding-top: 5vh;
+    text-align: center;
+  }
 }
 
 .g-title-container2 {
-  margin: -290px auto 0 auto;
+  margin: 0 auto;
   max-width: 980px;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   font-family: "GillSansReg";
   display: flex;
   color: #EE4367;
   text-shadow: 2px 2px rgb(23, 23, 23);
+  padding-left: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .g-title-container2 {
+    flex-direction: column;
+    padding-top: 5vh;
+    text-align: center;
+  }
 }
 
 .g-title-container3 {
-  margin: -290px auto 0 auto;
+  margin: 0 auto;
   max-width: 980px;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   font-family: "GillSansReg";
   display: flex;
   color: #08AD69;
   text-shadow: 2px 2px rgb(23, 23, 23);
+  padding-left: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .g-title-container3 {
+    flex-direction: column;
+    padding-top: 5vh;
+    text-align: center;
+  }
 }
 
 .g-title-container4 {
-  margin: -290px auto 0 auto;
+  margin: 0 auto;
   max-width: 980px;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   font-family: "GillSansReg";
   display: flex;
   color: #540D6E;
   text-shadow: 2px 2px rgb(23, 23, 23);
+  padding-left: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .g-title-container4 {
+    flex-direction: column;
+    padding-top: 5vh;
+    text-align: center;
+  }
 }
 
 .g-title-container5 {
-  margin: -290px auto 0 auto;
+  margin: 0 auto;
   max-width: 980px;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   font-family: "GillSansReg";
   display: flex;
   color: #3BCEAB;
   text-shadow: 2px 2px rgb(23, 23, 23);
+  padding-left: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .g-title-container5 {
+    flex-direction: column;
+    padding-top: 5vh;
+    text-align: center;
+  }
 }
 
 .title-left {
-  font-size: 300px;
+  font-size: 288px;
+  margin-right: 2vw;
+  padding-top: 125px;
 }
 
 .title-right {
-  padding-top: 160px;
-  font-size: 130px;
+  font-size: 128px;
+  padding-top: 280px;
 }
 
 .g-template-info {
-  margin: -30px auto 75px auto;
+  margin: 50px auto 75px auto;
   max-width: 980px;
   width: 75%;
   display: flex;
@@ -586,13 +638,16 @@ footer .socials a {
   width: 450px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
   .title-left {
-    font-size: 10vw;
+    font-size: 18vw;
+    padding: 0;
+    margin-bottom: -3vw;
   }
 
   .title-right {
-    font-size: 10vw;
+    font-size: 8vw;
+    padding: 0;
   }
 }
 

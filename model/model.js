@@ -139,21 +139,23 @@ var contactContent = ``;
 
 //gallery pages
 var g1Content = `
-<div class="gallery-template-hero1"></div>
-        <div class="g-title-container1">
-            <p class="title-left">1.</p>
-            <p class="title-right">food festival</p>
-        </div>
-        <div class="g-template-info">
-            <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-            <p class="g-desc-right">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
-        </div>
+<div class="gallery-template-hero1">
+    <div class="g-title-container1">
+        <p class="title-left">1.</p>
+        <p class="title-right">food festival</p>
+    </div>
+</div>
+<div class="g-template-info">
+    <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    <p class="g-desc-right">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
 `;
 var g2Content = `
-<div class="gallery-template-hero2"></div>
-<div class="g-title-container2">
-    <p class="title-left">2.</p>
-    <p class="title-right">dee jay</p>
+<div class="gallery-template-hero2">
+    <div class="g-title-container2">
+        <p class="title-left">2.</p>
+        <p class="title-right">dee jay</p>
+    </div>
 </div>
 <div class="g-template-info">
     <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
@@ -161,10 +163,11 @@ var g2Content = `
 </div>
 `;
 var g3Content = `
-<div class="gallery-template-hero3"></div>
-<div class="g-title-container3">
-    <p class="title-left">3.</p>
-    <p class="title-right">speech</p>
+<div class="gallery-template-hero3">
+    <div class="g-title-container3">
+        <p class="title-left">3.</p>
+        <p class="title-right">speech</p>
+    </div>
 </div>
 <div class="g-template-info">
     <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
@@ -172,10 +175,11 @@ var g3Content = `
 </div>
 `;
 var g4Content = `
-<div class="gallery-template-hero4"></div>
-<div class="g-title-container4">
-    <p class="title-left">4.</p>
-    <p class="title-right">open foodfest</p>
+<div class="gallery-template-hero4">
+    <div class="g-title-container4">
+        <p class="title-left">4.</p>
+        <p class="title-right">open foodfest</p>
+    </div>
 </div>
 <div class="g-template-info">
     <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
@@ -183,10 +187,11 @@ var g4Content = `
 </div>
 `;
 var g5Content = `
-<div class="gallery-template-hero5"></div>
-<div class="g-title-container5">
-    <p class="title-left">5.</p>
-    <p class="title-right">international</p>
+<div class="gallery-template-hero5">
+    <div class="g-title-container5">
+        <p class="title-left">5.</p>
+        <p class="title-right">international</p>
+    </div>
 </div>
 <div class="g-template-info">
     <p class="g-desc-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
