@@ -1,0 +1,100 @@
+.contact-us {
+    max-width: $content-width;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 65px;
+    margin-bottom: 90px;
+    font-family: "GillSansReg";
+
+    .contact-title {
+        font-size: 25px;
+        max-width: 229px;
+        border-bottom: #000 solid 2px;
+        padding-bottom: 5px;
+    }
+
+    .contact-main {
+        margin-top: 65px;
+        display: flex;
+    
+        .contact-info-left {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin-right: 50px;
+
+            .contact-input {
+                max-width: 529px;
+                height: 60px;
+                width: auto;
+                padding-left: 10px;
+                margin-bottom: 20px;
+            }
+    
+            .contact-input-message {
+                max-width: 529px;
+                height: 199px;
+                width: auto;
+                padding-left: 10px;
+                padding-bottom: 140px;
+                margin-bottom: 20px;
+            }
+
+            .message-btn {
+                width: 167px;
+                height: 60px;
+                text-align: center;
+                padding-top: 19px;
+                background-color: $site-pink;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+        .contact-info-right {
+            width: 40%;
+    
+            .contact-map {
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(../images/map.jpg);
+                max-width: 400px;
+                height: 442px;
+                width: auto;
+            }
+    
+            .contact-info {
+                margin-top: 34px;
+                
+                p {
+                    font-family: GillSansLight;
+                    font-size: 18px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .contact-us {
+    
+        .contact-main {
+            flex-direction: column;
+
+            .contact-info-left {
+                margin-bottom: 34px;
+                width: 100%;
+                
+            }
+
+            .contact-info-right {
+                width: 100%;
+            }
+        }  
+    }
+
+    
+}

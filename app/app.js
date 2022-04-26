@@ -20,6 +20,6 @@ function initListeners() {
     route(); //call the route function
 }
 
-$(document).ready(function () {
-    initListeners(); //initial load when page is ready
-});
+// $(document).ready(function () {
+//     initListeners(); //initial load when page is ready
+// });

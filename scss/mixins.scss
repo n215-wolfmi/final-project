@@ -46,3 +46,35 @@
         text-align: center;
     }
 }
+
+@mixin blog-btn() {
+    .ebtn-container {
+        background-color: $site-pink;
+        text-align: center;
+        color: #fff;
+        padding: 10px 20px;
+        position: relative;
+        cursor: pointer;
+        
+        .date-num {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .date-month {
+            font-size: 12px;
+            margin: 0;
+        }
+
+        a {
+            .ebtn-link {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}

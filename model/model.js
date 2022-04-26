@@ -134,7 +134,87 @@ var galleryContent = `
     </div>
 </div>
 `;
-var blogContent = ``;
+var blogContent = `
+<div class="blog-section">
+            <div class="blog-title">BLOG:</div>
+            <div class="double-blog">
+                <div class="blog-box">
+                    <div class="blog-left">
+                        <div class="ebtn-container">
+                            <p class="date-num">06</p>
+                            <p class="date-month">JUN</p>
+                            <a href="#JUN06"><span class="ebtn-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-banner"></div>
+                        <p class="blog-desc1">Sed et persipiatis unde omnis iste natus</p>
+                        <p class="blog-desc2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-left">
+                        <div class="ebtn-container">
+                            <p class="date-num">30</p>
+                            <p class="date-month">JUL</p>
+                            <a href="#JUL30"><span class="ebtn-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-banner"></div>
+                        <p class="blog-desc1">Sed et persipiatis unde omnis iste natus</p>
+                        <p class="blog-desc2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="double-blog">
+                <div class="blog-box">
+                    <div class="blog-left">
+                        <div class="ebtn-container">
+                            <p class="date-num">30</p>
+                            <p class="date-month">AUG</p>
+                            <a href="#AUG30"><span class="ebtn-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-banner"></div>
+                        <p class="blog-desc1">Sed et persipiatis unde omnis iste natus</p>
+                        <p class="blog-desc2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-left">
+                        <div class="ebtn-container">
+                            <p class="date-num">23</p>
+                            <p class="date-month">NOV</p>
+                            <a href="#NOV23"><span class="ebtn-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-banner"></div>
+                        <p class="blog-desc1">Sed et persipiatis unde omnis iste natus</p>
+                        <p class="blog-desc2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="double-blog">
+                <div class="blog-box">
+                    <div class="blog-left">
+                        <div class="ebtn-container">
+                            <p class="date-num">23</p>
+                            <p class="date-month">DEC</p>
+                            <a href="#DEC23"><span class="ebtn-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-banner"></div>
+                        <p class="blog-desc1">Sed et persipiatis unde omnis iste natus</p>
+                        <p class="blog-desc2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+`;
 var contactContent = ``;
 
 //gallery pages
@@ -200,11 +280,91 @@ var g5Content = `
 `;
 
 //blog pages
-var b1Content = ``;
-var b2Content = ``;
-var b3Content = ``;
-var b4Content = ``;
-var b5Content = ``;
+var JUN06Content = `
+<div class="blog-template-section">
+    <div class="b-template-banner">
+        <div class="blog-title-div">
+            <p class="date-day">06</p>
+            <p class="date-mon">JUN</p>
+        </div>
+    </div>
+    <div class="b-template-info">
+        <p class="blog-header">Header #1:</p>
+        <p class="b-template-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="blog-header">Header #2:</div>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+`;
+var JUL30Content = `
+<div class="blog-template-section">
+    <div class="b-template-banner">
+        <div class="blog-title-div">
+            <p class="date-day">30</p>
+            <p class="date-mon">JUL</p>
+        </div>
+    </div>
+    <div class="b-template-info">
+        <p class="blog-header">Header #1:</p>
+        <p class="b-template-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="blog-header">Header #2:</div>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+`;
+var AUG30Content = `
+<div class="blog-template-section">
+    <div class="b-template-banner">
+        <div class="blog-title-div">
+            <p class="date-day">30</p>
+            <p class="date-mon">AUG</p>
+        </div>
+    </div>
+    <div class="b-template-info">
+        <p class="blog-header">Header #1:</p>
+        <p class="b-template-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="blog-header">Header #2:</div>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+`;
+var NOV23Content = `
+<div class="blog-template-section">
+    <div class="b-template-banner">
+        <div class="blog-title-div">
+            <p class="date-day">23</p>
+            <p class="date-mon">NOV</p>
+        </div>
+    </div>
+    <div class="b-template-info">
+        <p class="blog-header">Header #1:</p>
+        <p class="b-template-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="blog-header">Header #2:</div>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+`;
+var DEC23Content = `
+<div class="blog-template-section">
+    <div class="b-template-banner">
+        <div class="blog-title-div">
+            <p class="date-day">23</p>
+            <p class="date-mon">DEC</p>
+        </div>
+    </div>
+    <div class="b-template-info">
+        <p class="blog-header">Header #1:</p>
+        <p class="b-template-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="blog-header">Header #2:</div>
+        <p class="b-template-desc">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+`;
 
 //inserts page content into app div
 //recieves pageName from app.js
