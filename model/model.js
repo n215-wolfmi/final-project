@@ -26,7 +26,7 @@ var homeContent = `
                             <div class="ebtn-container">
                                 <p class="date-num">06</p>
                                 <p class="date-month">JUN</p>
-                                <a href="#06JUN">
+                                <a href="#JUN06">
                                     <span class="ebtn-link"></span>
                                 </a>
                             </div>
@@ -42,7 +42,7 @@ var homeContent = `
                             <div class="ebtn-container">
                                 <p class="date-num">30</p>
                                 <p class="date-month">JUL</p>
-                                <a href="#30JUL">
+                                <a href="#JUL30">
                                     <span class="ebtn-link"></span>
                                 </a>
                             </div>
@@ -61,7 +61,7 @@ var homeContent = `
                             <div class="ebtn-container">
                                 <p class="date-num">30</p>
                                 <p class="date-month">AUG</p>
-                                <a href="#30AUG">
+                                <a href="#AUG30">
                                     <span class="ebtn-link"></span>
                                 </a>
                             </div>
@@ -76,7 +76,7 @@ var homeContent = `
                             <div class="ebtn-container">
                                 <p class="date-num">23</p>
                                 <p class="date-month">NOV</p>
-                                <a href="#23NOV">
+                                <a href="#NOV23">
                                     <span class="ebtn-link"></span>
                                 </a>
                             </div>
@@ -94,7 +94,7 @@ var homeContent = `
                             <div class="ebtn-container">
                                 <p class="date-num">23</p>
                                 <p class="date-month">DEC</p>
-                                <a href="#23DEC">
+                                <a href="#DEC23">
                                     <span class="ebtn-link"></span>
                                 </a>
                             </div>
@@ -215,7 +215,23 @@ var blogContent = `
             </div>
         </div>
 `;
-var contactContent = ``;
+var contactContent = `
+<div class="contact-us">
+    <div class="contact-title">CONTACT US:</div>
+    <div class="contact-main">
+        <div class="contact-info-left">
+        <input type="text" class="contact-input" placeholder="Your name...">
+        <input type="text" class="contact-input" placeholder="Email Address...">
+        <input type="text" class="contact-input" placeholder="Company...">
+        <input type="text" class="contact-input-message" placeholder="Message...">
+        <a class="message-btn" href="#">SEND MESSAGE</a>
+        </div>
+        <div class="contact-info-right">
+        <div class="contact-map"></div>
+        </div>
+    </div>
+</div>
+`;
 
 //gallery pages
 var g1Content = `
